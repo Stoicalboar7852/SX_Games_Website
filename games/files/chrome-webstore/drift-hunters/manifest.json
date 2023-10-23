@@ -1,0 +1,40 @@
+{
+   "action": {
+      "default_icon": "icon/32.png",
+      "default_title": "Drift Hunters Unblocked"
+   },
+   "background": {
+      "service_worker": "sv.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; worker-src 'self' 'unsafe-eval' blob: 'unsafe-inline'"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "host_permissions": [ "https://*/*" ],
+   "icons": {
+      "128": "icon/128.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png",
+      "64": "icon/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjiENfwEiYOwSXHqvfp3/MytKoiLXM5bCSb7SPOq9JYGMdpydaZHOhfRoDgnjzXQ35/2ezfvQLc4ShIrVE+KCJlt1mBodrZl4w3vPZAfzpx4PHaCVt7KZOzpMJYOxIAE/qDxVY7DDmyyUdSagNLmvqK1kNTJ2z4zJykgWlD2Eu2aujMnHo2hRp7TRWBMtXv+f6KZnFVVVqsoieBu/vWbXE9gpHmMJS3cOejVpRNxK7wTETuZ+VxLf8nvGGlcnDmHoKRL87j1VmuPATeBDdlrmWpWGMc4R9ycgbeTgCY46C+P9MazP0vdeoimd5BtkbMMql+y6gGCX+RZod68PRKOn3QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "alarms", "storage" ],
+   "sandbox": {
+      "pages": [ "play.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3",
+   "version_name": "unblocked",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*/*" ],
+      "resources": [ "polyfill/attach.js", "polyfill/chrome/*", "polyfill/edge/*", "polyfill/firefox/*" ]
+   } ]
+}
