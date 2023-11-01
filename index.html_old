@@ -24,7 +24,7 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class=" u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container" id="sec-2480" style="background-image: none"><div class="u-section-rows">
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class=" u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container" id="sec-2480" style="background-image: none"><div class="u-section-rows">
         <div class="u-clearfix u-section-row" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" id="sec-931d">
           <div class="u-clearfix u-sheet u-sheet-1">
             <a href="https://nicepage.com" class="u-image u-logo u-image-1">
@@ -115,9 +115,9 @@
         <img class="u-image u-image-default u-image-1" src="images/image.png" alt="" data-image-width="616" data-image-height="353">
         <img class="u-image u-image-default u-image-2" src="images/jacksmith_400x226.jpg" alt="" data-image-width="400" data-image-height="226">
         <img class="u-image u-image-default u-image-3" src="images/papaspizzeria_400x226.jpg" alt="" data-image-width="400" data-image-height="226">
-        <a href="https://stoicalboar7852.github.io/SX_Games_Website/games/Play-Jacksmith.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">Play Jacksmith</a>
-        <a href="https://stoicalboar7852.github.io/SX_Games_Website/games/Play-Final-Earth-2.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">Play Final Earth 2</a>
-        <a href="https://stoicalboar7852.github.io/SX_Games_Website/games/Play-Papas-Pizzeria.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-3">Play Papa's Pizzeria</a>
+        <a href="games/Play-Jacksmith.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1">Play Jacksmith</a>
+        <a href="games/Play-Final-Earth-2.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-2">Play Final Earth 2</a>
+        <a href="games/Play-Papas-Pizzeria.html" class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-3">Play Papa's Pizzeria</a>
         <img class="u-image u-image-default u-image-4" src="images/Screenshot2023-10-23215624.png" alt="" data-image-width="1481" data-image-height="861">
         <img class="u-image u-image-default u-image-5" src="images/cover-1626884625264.webp" alt="" data-image-width="1200" data-image-height="630">
         <img class="u-image u-image-default u-image-6" src="images/91SfPYITE-L.png" alt="" data-image-width="512" data-image-height="327">
