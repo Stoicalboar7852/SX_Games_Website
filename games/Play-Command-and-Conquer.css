@@ -9,20 +9,34 @@
 }
 
 .u-section-1 .u-custom-html-1 {
-  margin-bottom: 60px;
   height: auto;
   min-height: 707px;
-  margin-top: 20px;
+  width: 773px;
+  margin: 20px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 720px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
   }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
   }
 }
