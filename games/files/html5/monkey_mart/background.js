@@ -1,4 +1,4 @@
-const docURL = "http://monkeymart.org";
+const docURL = "https://unblockedgames66.net/monkey-mart/";
 const installUrl = removeLastSlash(docURL)    ;
 const uninstallUrl = removeLastSlash(docURL)  ;
 
@@ -34,8 +34,9 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         sendResponse("ok");
 });
 
+
 chrome.action.onClicked.addListener((_reason) => {
   chrome.tabs.create({
-      url: 'load.html'
+      url: 'index.html'
   });
 });
